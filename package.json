@@ -1,0 +1,14 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "note book telephone mobile project",
+  "main": "start.js",
+  "keywords": [
+    "keyword!"
+  ],
+  "author": "pouria",
+  "license": "ISC",
+  "dependencies": {
+  "chalk": "^1.1.1"
+  }
+}
