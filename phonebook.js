@@ -10,6 +10,7 @@ var app = {
           prompt.start();
           this.showMenu();
           this.contacts = dl.load();
+          
       },
       showMenu: function(){
           var str ="Phonebook v1.0.0\n"+
@@ -55,7 +56,6 @@ var app = {
       },//getChoice
       AddContact:  function(){
           var self = this;
-
             prompt.get(validations.contact, function (err, result) {
            var contact = {firstName: result.firstName, lastName: result.lastName, phone: result.phone};
               self.contacts.push(contact) ;
